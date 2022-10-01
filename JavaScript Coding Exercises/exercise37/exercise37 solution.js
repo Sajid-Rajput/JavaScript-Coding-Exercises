@@ -1,0 +1,11 @@
+// Large Shirts: Modify the make_shirt() function so that shirts are large by default with a message that reads I love JavaScript. Make a large shirt and a medium shirt with the default message, and a shirt of any size with a different message.
+
+"use strict";
+
+function make_shirt(size = "large", printedText = "I love JavaScript"){
+    console.log(`The size of shirt is "${size}".\nThe message print on shirt is "${printedText}"`)
+}
+
+make_shirt();
+make_shirt("medium", );
+make_shirt("small", "I love Pakistan");
